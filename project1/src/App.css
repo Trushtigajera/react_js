@@ -1,0 +1,676 @@
+
+
+body{
+  overflow-x: hidden;
+}
+.flex{
+  display: flex;
+}
+.just{
+  justify-content: space-between;
+}
+
+.bg1{
+  background-color: #BDAC8D;
+  padding: 5px 0px;
+}
+
+.item a{
+  padding-right: 4px;
+}
+.item p{
+  padding-top: 6px;
+}
+.top_left{
+  padding: 2px;
+  display: flex;
+}
+.top_right{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+  margin-top: 0px;
+}
+.top_right a{
+  padding-right: 10px;
+  margin-bottom: 15px;
+}
+.front_btn button{
+  width: inherit;
+  padding: 15px 25px;
+  color: white;
+  background-color: #BDAC8D;
+}
+.front_btn button:hover{
+  background-color: #373737;
+  transition: 1s;
+}
+
+.bg2{
+  background-color: #373737;
+}
+.slider img{
+  height: 100%;
+  width: 100%;
+}
+.menu a{
+  color: inherit;
+  
+}
+
+button{
+  border: none;
+}
+.btn button{
+  padding: 20px 50px;
+}
+.slider_1{
+  width: 70%;
+  font-size: 100px;
+  margin-bottom: 100px;
+  /* margin-right: 900px; */
+}
+.slider_btn{
+  padding-left: 60px;
+}
+.btn1 button{
+  background-color: #BDAC8D;
+  color: white;
+}
+.btn1 button:hover{
+  background-color: #373737;
+  transition: 1s;
+}
+.btn2 button{
+  background-color: transparent;
+  color: white;
+  border: white 2px solid;
+}
+.btn2 button:hover{
+  background-color: #BDAC8D;
+  color: white;
+  transition: 1s;
+  border: 2px solid #BDAC8D;
+}
+
+
+.main2 h1{
+  font-size: 50px;
+  color: white;
+}
+.main_btn select{
+  background-color: #373737;
+  padding: 20px 70px;
+  color: white;
+}
+.main_btn2 button{
+  background-color: #BDAC8D;
+  padding: 20px 60px;
+  color: white;
+}
+.main_btn2 button:hover{
+  background-color: black;
+  transition: .1s;
+}
+
+.about{
+  margin-top: 100px;
+}
+.about span{
+  text-transform: uppercase;
+  color: #BDAC8D;
+  font-weight: 500; 
+}
+.about h1{
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.about p{
+  color: #373737;
+}
+.about_btn button{
+  background-color: #BDAC8D;
+  padding: 20px 50px;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.about_btn button:hover{
+  background-color: black;
+  transition: 1s;
+}
+.accordion-button{
+  border: none;
+}
+
+.bg3{
+  background-color: #F9F8F5;
+}
+.SERVICE span{
+  color: #BDAC8D;
+} 
+.SERVICE p{
+  color: #373737;
+  padding-top: 15px;
+}
+.SERVICE{
+  /* width: 60%; */
+  padding-top: 30px;
+}
+.SERVICE h1{
+  font-size: 45px;
+}
+.service_main{
+  padding: 100px 0px;
+}
+.service_img{
+  padding-left: 40px;
+}
+.service_2{
+  width: 80%;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.service_2 div{
+  padding-bottom: 10px;
+}
+.service_2 img{
+  padding-right: 50px;
+  padding-top: 30px;
+}
+.basic_btn button{
+  width: inherit;
+  padding: 15px 35px;
+  color: white;
+  background-color: #BDAC8D;
+  /* margin-right: 460px; */
+}
+.basic_btn button:hover{
+  background-color: #373737;
+  transition: 1s;
+}
+.basic{
+  padding-top: 150px;
+}
+.basic h5{
+  color:#BDAC8D;
+}
+.basic h1{
+  padding-top: 10px;
+}
+.basic p{
+  padding: 20px 0px;
+}
+.basic h2{
+  font-size: 35px;
+  color:#BDAC8D;
+}
+.basic h4{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+
+.basic2{
+  padding-top: 150px;
+}
+.basic2 h5{
+  color:#BDAC8D;
+}
+.basic2 h1{
+  width: 80%;
+  padding-top: 10px;
+}
+.basic2 p{
+  padding: 20px 0px;
+}
+.basic2 h2{
+  font-size: 35px;
+  color:#BDAC8D;
+}
+.basic2 h4{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+/* .part6{
+  background-image: url(./image/p11.jpg);
+  height: 60%;
+} */
+.basic_img img{
+  height: 100%;
+  width: 100%;
+}
+.FEATURES h2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-left: 10px;
+}
+.Features p{
+  padding: 20px 0px;
+}
+.Features h5{
+  font-weight: 400;
+  line-height: 24px;
+  /* padding-bottom: 20px; */
+}
+.Features button{
+  padding: 20px 50px;
+  margin-top: 30px;
+  color:white;
+  background-color: #BDAC8D;
+}
+
+.bg_4{
+  background-color: #F9F8F5;
+}
+.AMENITIES_any{
+  padding: 0px 20px;
+}
+.AMENITIES p{
+  width: 70%;
+  padding-top: 10px;
+}
+.PRICING_img img{
+  height: 550px;
+  width: 340px;
+  box-shadow: 2px 2px 6px #373737;
+}
+.PRICING_img{
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.PRICING_img2 img{
+  height: 650px;
+  width: 400px;
+  box-shadow: 2px 2px 6px #373737;
+}
+.PRICING_img2{
+  padding: 40px 0px;
+}
+.PRICING_HOTEL{
+  padding-top: 200px;
+}
+.PRICING_HOTEL h5{
+  color: #BDAC8D;
+}
+.PRICING_HOTEL h1{
+  font-size: 45px;
+}
+.PRICING_HOTEL p{
+  padding: 10px 0px;
+}
+.PRICING_HOTEL button{
+  padding: 15px 35px;
+  background-color: #BDAC8D;
+  color: white;
+}
+.bg_6{
+  background-color: #F9F8F5;
+}
+.c_img{
+  background-color: white;
+  padding:15px;
+  margin-bottom: 50px
+}
+.c_img p{
+  width: 80%;
+}
+.c_img button{
+  padding: 15px 30px;
+  background-color: #F9F8F5;
+  color: #BDAC8D;
+}
+.foot{
+  background-color: black;
+  color: white;
+  padding: 80px 0px;
+}
+.foot_1 p{
+  padding-top: 20px;
+}
+.foot_1 a{
+  padding: 0px 10px;
+  font-size: 20px;
+}
+.foot_2 h2{
+  padding-bottom: 10px;
+}
+.foot_2 p{
+  line-height: 15px;
+}
+.foot_4 p{
+  margin-top: 20px;
+}
+.foot_4 button{
+  padding: 15px 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  color:#F9F8F5;
+  border-right: none;
+  margin-top: 20px;
+}
+.foot_send div a{
+  padding: 15px 30px;
+  border: 2px solid #BDAC8D;
+  background-color: #BDAC8D;  
+}
+
+
+
+
+
+
+
+
+
+@media(max-Width: 1024px){
+
+  .slider_1{
+    width: 100%;
+    font-size: 70px;
+    margin-bottom: 40px;
+  }
+  .foot_4 button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color:#F9F8F5;
+    border-right: none;
+    margin-top: 20px;
+  }
+  .foot_4 div a{
+    padding: 11px 20px;
+    border: 2px solid #BDAC8D;
+    background-color: #BDAC8D;
+  }
+  .PRICING_HOTEL h1{
+    font-size: 38px;
+  }
+  .PRICING_img{
+      /* padding-top: 100px; */
+      padding-left: 0px;
+  }
+  .PRICING_img img{
+    height: 500px;
+    width: 300px;
+  }
+  .PRICING_img2{
+    padding-top: 50px;
+  }
+  .PRICING_img2 img{
+    height: 550px;
+    width: 330px;
+   
+  }
+  .i_1 img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .SERVICE h1{
+    font-size: 30px;
+    padding-right: 30px;
+  }
+  .btn{
+    text-align: center;
+    margin: 0px;
+  }
+  .service_2{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .basic{
+    padding-top: 20px;
+  }
+  .basic2{
+    padding-top: 20px;
+  }
+  .main_btn select{
+    background-color: #373737;
+    padding: 20px 50px;
+    color: white;
+  }
+  .main_btn2 button{
+    background-color: #BDAC8D;
+    padding: 10px 60px;
+    color: white;
+  }
+  
+  .about h1{
+    font-size: 30px;
+    text-transform: capitalize;
+  }
+  .about_img img{
+    height: 443px;
+    width: 267px;
+  }
+
+  .Features p{
+    padding: 20px 0px;
+  }
+  .Features h5{
+    font-weight: 400;
+    /* line-height: 15px; */
+    font-size: 18px;
+    /* padding-bottom: 20px; */
+  }
+  .Features button{
+    padding: 15px 40px;
+    margin-top: 20px;
+    color:white;
+    background-color: #BDAC8D;
+  }
+  .ferture img{
+    height: 462px;
+    width: 432px;
+  }
+  .AMENITIES_any{
+    padding: 0px 10px;
+  }
+  .AMENITIES h2{
+    font-size: 28px;
+  }
+  .AMENITIES p{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  .service_2 div{
+    padding-bottom: 0px;
+  }
+  .service_2 img{
+    padding-right: 20px;
+    padding-top: 40px;
+  }
+}
+@media(max-Width:768px){
+  .slider_1{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 40px;
+    width: 80%;
+    text-align: center;
+    margin-left: 40px;
+  }
+  .btn button{
+    
+    text-align: center;
+    margin: 0px;
+    padding: 15px 30px;
+  }
+  .about{
+    margin-top: 0px;
+  }
+  .foot_3{
+    padding-top: 30px;
+  }
+  .foot_4{
+    padding-top: 30px;
+  }
+  .service_2 div{
+    padding-bottom: 10px;
+  }
+  .service_2 img{
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+  .FEATURES{
+    margin: 20px 0px;
+  }
+  .about h1{
+    font-size: 25px;
+    width: 50%;
+  }
+  .about p{
+    padding-top: 30px;
+    width: 60%;
+  }
+  .about_main{
+    display: flex;
+  }
+  .about_btn{
+    padding-bottom: 100px;
+  }
+  .Accordion{
+    padding: 50px;
+  }
+  .basic_img img{
+    height: 364px;
+    width: 383px;
+  }
+  .basic{
+    width: 100%;
+  }
+  .basic h1{
+    /* width: 160%; */
+    font-size: 30px;
+    padding-top: 5px; 
+  }
+  .basic p{
+    padding-bottom: 0px;
+  }
+  .basic h2{
+    font-size: 25px;
+    color:#BDAC8D;
+  }
+  .basic h4{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .basic_btn button{
+    width: inherit;
+    padding: 15px 30px;
+    color: white;
+    background-color: #BDAC8D;
+    /* margin-right: 150px; */
+  }
+  .basic2{
+    width: 100%;
+    padding-right: 0px;
+  }
+  .basic2 h1{
+    /* width: 160%; */
+    font-size: 30px;
+    padding-top: 5px; 
+  }
+  .basic2 p{
+    padding-bottom: 0px;
+  }
+  .basic2 h2{
+    font-size: 25px;
+    color:#BDAC8D;
+  }
+  .basic2 h4{
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .basic_btn button{
+    width: inherit;
+    padding: 15px 30px;
+    color: white;
+    background-color: #BDAC8D;
+    /* margin-right: 150px; */
+  }
+  .main_btn select{
+    background-color: #373737;
+    padding: 20px 50px;
+    margin-top: 20px;
+    color: white;
+  }
+  .main_btn2 button{
+    background-color: #BDAC8D;
+    padding: 20px 40px;
+    margin-top: 20px;
+    color: white;
+  }
+  .ferture img{
+    height: 442px;
+    width: 412px;
+  }
+}
+@media(max-Width: 576px){
+  .slider_btn{
+    padding-left: 20px;
+  }
+  .slider_1{
+    /* width: 100%; */
+    padding-top: 30px;
+    font-size: 20px;
+    /* margin-bottom: 40px; */
+    text-align: center;
+    /* margin-left: 40px; */
+  }
+  .btn button{
+    
+    text-align: center;
+    margin: 0px;
+    padding: 0px 20px;
+  }
+  .foot_1{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .foot_2{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .foot_3{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .foot_3 div{
+    text-align: center;
+    /* padding-bottom: 50px; */
+    justify-content: center;
+  }
+  .foot_4{
+    text-align: center;
+    /* padding-bottom: 50px; */
+  }
+}
+@media(min-Width: 576px){
+  /* .basic_img{
+    height: 100%;
+    width: 100%;
+  } */
+  
+  .basic{
+    padding-left: 50px;
+  }
+  .basic h1{
+    width: 100%;
+    padding-top: 10px;
+  }
+  .basic_btn button{
+    /* width: inherit;
+    padding: 15px 35px;
+    color: white;
+    background-color: #BDAC8D; */
+    margin-right: 230px;
+  }
+  
+}
+
+

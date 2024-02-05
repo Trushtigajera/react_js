@@ -1,0 +1,126 @@
+ul{
+  list-style: none;
+}
+.image{
+  /* margin: 30px 70px; */
+  padding: 30px 50px;
+}
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.top_header{
+  display: flex;
+  background-color: #FFFFFF; 
+}
+.left ul{
+  display: flex;
+}
+.text{
+  display: flex;
+  margin: 0px -62px;
+}
+.middle{
+  display: flex;
+  margin-top: 38px;
+  margin-left: 50px;
+}
+.serach{
+  padding-top: 8px;
+  font-size: 20px;
+}
+.search_input input{
+  width: 300px;
+  border: none;
+  background-color: #F5F5F6;
+  margin: 0px 20px;
+  padding: 10px;
+}
+
+.left li{
+  margin: 30px 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+.last input{
+  padding: 0px 50px;
+}
+.last{
+  margin: 20px 0px;
+  font-size: 20px;
+}
+.input{
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.input a{
+   margin: 60px 5px;
+   /* padding: 0px 20px ; */
+}
+/* .header{
+  position: fixed;
+} */
+
+.src{
+  background-color: #ff4d88;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+
+/* start cateegory */
+.category{
+  background-color: #F5F5F6;
+  color: black;
+  /* width: 20%; */
+  height: 600px;
+  overflow-y: auto;
+  position: fixed;
+  /* top: 0; */
+}
+.category h1{
+  text-transform: capitalize;
+  margin: 5px 10px;
+}
+.category p{
+  margin: 20px 30px;
+}
+
+/* product_smartphone */
+.products_smartphone{
+  margin: 0px 270px;
+}
+.main_div{
+  height: 250px;
+  display: flex;
+  margin: 5px 0px;
+}
+.imgs img{
+  width: 300px;
+  height: 230px;
+}
+.content p{
+  margin: 0px 20px;
+  width: 500px;
+}
+.content span{
+  margin: 0px 5px;
+  color: #A8A8A8;
+  /* color: yellowgreen; */
+}
+.content .abc{
+  color: black;
+}
+.content button{
+  margin: 20px 20px;
+  border: none;
+  background-color: #ff4d88;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

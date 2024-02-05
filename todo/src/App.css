@@ -1,0 +1,15 @@
+.top{
+ margin: auto;
+ width: 1340px; 
+ padding-top: 50px;
+}
+.first input{
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+.second input{
+  padding: 10px 30px;
+  margin-top: 20px;
+}
+
+

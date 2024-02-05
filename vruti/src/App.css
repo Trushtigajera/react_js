@@ -1,0 +1,588 @@
+/* Header */
+.container{
+  width: 1140px ;
+  margin:0px auto !important;
+}
+ul,li{
+  list-style: none;
+}
+.head{
+  background-color: #003366;
+}
+.main-head{
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0px;
+  font-size: 17px;
+  
+}
+.main-head  .icon  a{
+  display: flex;
+}
+.main-head  .icon  a  svg{
+  color: white;
+  margin:0px 5px;
+  font-size: 17px;
+} 
+.main-head  .icon  a  svg:hover{
+  color: #EAA800;
+  cursor: pointer;
+}
+.main-head > .urlinfo > .inbox,.certificate{
+  margin-right: 18px;
+  color: White;
+}
+.main-head > .urlinfo > a:hover{
+  color: #EAA800;
+  cursor: pointer;
+}
+.main-head > .urlinfo > .certificate,.inbox >span{
+  margin-left:8px;
+}
+
+.main-head > .qus > p{
+  color: White;
+  margin: 0px !important;
+}
+
+/* Logo header */
+.logo-head,.course-info{
+  background-color:white;
+}
+.menu-head{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 0px;
+}
+.menu-head > .logo > img{
+  width: 225px;
+  height: 61.74px;
+}
+.menu-head > .menu > ul >li{
+  font-weight: bold;
+  padding-right:15px ;
+  font-size: 14px;
+}
+.menu-head > .menu > ul{
+  display: flex;
+}
+.menu-head > .menu > ul >li:hover{
+  color: #EAA800;
+  cursor: pointer;
+}
+/* Slider */
+.owl-stage .owl-item .item img{
+  width: 100% !important;
+}
+/* Course Info */
+.course-head > .first-head,
+.creative-head > .creative1-head,
+.student-head > .stu1-head{
+  margin: 27px 0px 0px 0px!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.course-head > .first-head > hr,
+.creative-head > .creative1-head > hr,
+.student-head > .stu1-head > hr{
+  width: 19px;
+  height:3px;
+  background-color: #FFBC06;
+  border: none !important;
+  margin: 0px 5px 0px 0px!important;
+}
+.course-head > .second-head > h1,
+.creative-head > .creative2-head > h1,
+.student-head > .stu2-head > h1{
+  text-align: center;
+  margin-top: 0px !important;
+  letter-spacing: 2px;
+}
+.top-course{
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-course  > div{
+  border-radius: 20px;
+  box-shadow: 1px 0px 2px gray;
+  width: 350px !important;
+  margin: 15px;
+  /* padding-right: 8px; */
+}
+.top-course  > div > a{
+  font-weight: bold;
+  font-size: larger;
+  cursor: pointer;
+  width: 30% ;
+  margin: 15px 0px 15px 15px !important;
+  padding-bottom: 15px;
+}
+.top-course > div > .knowmor > p{
+  color: #FFBC06;
+  margin-left:15px ;
+}
+.top-course > div > .knowmor > p > svg{
+  color: #FFBC06;
+  margin: 2px;
+}
+.top-course > div > .knowmor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-course > div > .knowmor > button{
+  background-color: #003366;
+  color: aliceblue;
+  border: none !important;
+  margin-right: 15px;
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.top-course  > div > img{
+  border-radius: 20px 20px 0px 0px;
+}
+.viewall > button{
+  align-items: center;
+  background-color: #FFBC06;
+  color: aliceblue;
+  border: none !important;
+  margin:30px auto;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  display: flex;
+}
+.viewall > button > svg{
+  margin-left: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* About Us */
+.about-us{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 100px 0;
+}
+.about-head{
+  width: 59%;
+  background-color: white;
+  box-shadow: 0px 0px 10px lightgray;
+  border-radius: 0 250px 250px 0;
+  padding: 60px 0px 60px 70px;
+  z-index: 1;
+}
+.about-head > .about-info{
+  width: 800px;
+  color: gray;
+}
+.about-head > .first-head > hr{
+  width: 18px;
+  height:2px;
+  background-color: #FFBC06;
+  border: none !important;
+  margin: 0px 7px 0px 0px!important;
+}
+.about-head > .first-head{
+  margin: 27px 0px 0px 0px!important;
+  display: flex;
+  align-items: center;
+}
+.about-head > .second-head > h4{
+  margin-top: 0px !important;
+  letter-spacing: 2px;
+}
+.about-enroll > button{
+  align-items: center;
+  background-color: #FFBC06;
+  color: aliceblue;
+  border: none !important;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  display: flex;
+}
+.about-enroll > button > svg{
+  margin-left: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.aboutus-img{
+  width:40%;
+  position: relative;
+  position: absolute;
+  top:30px;
+  right: 0;
+}
+.aboutus-img >.about-photo > img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.play{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  cursor: pointer;
+}
+.p_icon{
+  color: #FFBC28;
+  font-size: 15px;
+}
+
+/* Review */
+.review{
+  width: 100%;
+  height: 250px;
+  background: url(./image/counter_bg.jpg);
+}
+.counter{
+  width: 100%;
+  height: 250px;
+  background-color: #003366;
+  opacity: 0.8 ;
+}
+.good-review{
+  text-align: center;
+  color: white;
+  padding: 50px 0px !important;
+}
+.count{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.good-review > .count  > div > p {
+  font-size: 50px;
+  margin: 0px !important;
+}
+.good-review > div > h1{
+  margin: 0px !important;
+}
+.good-review > div > h4{
+  margin: 3px !important;
+}
+/* Happy Students */
+.about-us{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 100px 0;
+}
+
+/* Testimonial Slider */
+.test-main{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 100px 0;
+}
+.test-head{
+  background-color: white;
+  padding: 60px 0px 60px 0px;
+  z-index: 1;
+  width: 30%;
+}
+.test-head > .test-info{
+  width: 500px;
+  margin-bottom: 10px;
+  color: gray;
+}
+.test-head > .test1-head > hr{
+  width: 18px;
+  height:2px;
+  background-color: #FFBC06;
+  border: none !important;
+  margin: 0px 7px 0px 0px!important;
+}
+.test-head > .test1-head{
+  margin: 27px 0px 0px 0px!important;
+  display: flex;
+  align-items: center;
+}
+.test-head > .test2-head > h1{
+  margin-top: 0px !important;
+  letter-spacing: 2px;
+}
+.test-head > .test-icon{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.test-head > .test-icon >p{
+  font-size: 80px;
+  margin: 0px !important;
+  color: #EBEBEB;
+}
+.test-head > .test-icon > div {
+  display: flex;
+  align-items: end;
+}
+.test-head > .test-icon > div >p{
+  width: 40px;
+  height: 40px;
+  box-shadow: 1px 1px 5px grey;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: end;
+  margin:5px;
+}
+.test-head > .test-icon > div >p>svg{
+  font-size: medium;
+}
+.test-head > .test-person > img{
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+}
+.test-head > .test-person{
+  display: flex;
+}
+.test-head > .test-person > span{
+  margin-left: 12px;
+}
+.test-head > .test-person > span > i{
+  display: flex;
+  align-items: center;
+  height: 0px !important;
+
+}
+.test-head > .test-person > span > i > h5{
+  color: #FFBC06;
+}
+.test-head > .test-person > span > i > p{
+  color: gray;
+}
+.test-head > .test-person > span >p{
+  color: #003366;
+  font-weight: bold;
+}
+.test-img{
+  background-image: url(./image/happy-students.jpg);
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.test-img >.test-photo > img{
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Why Choose Creative */
+.creative-info{
+ background-color: #F7F7F7;
+ padding: 70px 0px;
+}
+.only-creative{
+  display: flex;
+  flex-wrap: wrap;
+}
+.only-creative  > div{
+  border-radius: 10px;
+  box-shadow: 1px 0px 2px gray;
+  width: 24% !important;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+
+}
+.only-creative  > div > p{
+  color: gray;
+}
+.only-creative > div > h1{
+  display: flex;
+  justify-content: center;
+}
+.only-creative > div > h1 >svg{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.only-creative > div > h1 > .sv1{
+  background-color: #F6475F;
+
+}
+.only-creative > div > h1 > .sv2{
+  background-color: #FFBC06;
+
+}
+.only-creative > div > h1 > .sv3{
+  background-color: #B3D369;
+
+}
+.only-creative > div > h1 > .sv4{
+  background-color: #554DA7;
+
+}
+.only-creative > div > h1 > .sv5{
+  background-color: #4382FF;
+
+}
+.only-creative > div > h1 > .sv6{
+  background-color: #F94FA4;
+
+}
+/* Placement */
+.student-head > div {
+  display: flex;
+}
+.student-head  div .owl-stage .owl-item  img{
+  border: 1px solid #C8C8C8;
+  margin: 20px 5px;
+  width: 200px !important;
+  padding: 0px 10px;
+}
+.our_d{
+  font-size: 20px;
+  color: #292B2C;
+  font-weight: bold;
+  padding: 60px 0 5px 0;
+}
+.multi{
+border: 1px solid lightgray;
+font-size: 12px;
+margin: 2px 2px;  
+padding: 3px 15px;
+}
+.multi:hover{
+  background-color: #EAA800;
+  transition: .1s;
+  cursor: pointer;
+  color: #EBEBEB;
+}
+.btn3{
+display: flex;
+justify-content: start;
+flex-wrap: wrap;
+}
+.show{
+font-size: 14px;
+padding: 0px 0;
+font-weight: bold;
+margin-bottom: 40px;
+}
+.show:hover{
+color: #FFBC06;
+transition: 1s;
+cursor: pointer;
+}
+
+/* Footer */
+.footer-bg{
+  background-color: #003366;
+  color: white;
+  display: flex;
+  padding-bottom: 100px;
+}
+.footer-logo{
+  width: 33.33%;
+}
+.footer-logo > img{
+  margin-left: 200px;
+  margin-top: 100px;
+  width: 240px;
+}
+.footer-logo > p{
+  margin-left: 200px;
+  width: 340px;
+  text-align: justify;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.footer-logo > span{
+  margin-left: 200px;
+  color: #EAA800;
+  font-weight: bold;
+}
+.icon1{
+  padding-top: 20px;
+  display: flex;
+
+}
+.icon1 > i{
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+}
+.icon1  i svg{
+  background-color: rgba(255, 255,255, 0.2);
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.row2 >p{
+  margin-top: 100px;
+  margin-left: 80px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.row2 > ul{
+  margin-left: 80px;
+  list-style: none;
+  margin-top: 20px;
+  line-height: 30px;
+}
+.row2 > ul > li >i{
+  margin-right: 10px;
+}
+.row3 > .contact{
+  margin-top: 100px;
+  margin-left: 100px;
+  letter-spacing: 1px;
+  font-weight: 500; 
+}
+.row3 > h4{
+  margin-left: 100px;
+  margin-top: 20px;
+  color: #EAA800;
+}
+.address{
+  margin-left: 100px;
+  width: 70%;
+  margin-top: 10px;
+}
+.number{
+  margin-left: 100px;
+}
+.row3 > ul{
+  list-style: none;
+  margin-left: 100px;
+  margin-top: 10px;
+  line-height: 30px;
+}
+.row3 > ul > li >i{
+  margin-right: 10px;
+}

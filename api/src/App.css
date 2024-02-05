@@ -1,0 +1,18 @@
+.main{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.top{
+  padding-left: 40px;
+}
+.api h1{
+  text-align: center;
+  margin: 50px auto;
+  font-size: 70px;
+  font-weight: 700;
+}
+.shap{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
